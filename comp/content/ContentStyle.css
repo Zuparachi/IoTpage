@@ -1,0 +1,128 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Audiowide&family=Inter:opsz,wght@14..32,300&family=Noto+Sans+Thai:wght@100..900&family=Orbitron:wght@400;500&display=swap');
+.main-image {
+    width: 100%;
+    max-height: 895px;
+    object-fit: cover;
+  }
+  
+  .main-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    text-align: start;
+  }
+  .main-text h1 {
+    font-size: calc(1.5rem + 1.5vw); 
+  }
+  
+  .main-text p {
+    font-size: calc(1rem + 0.5vw); 
+}
+  .lead1{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+  .lead2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .lead3{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  
+  }
+  .display-4{
+        font-family: "Audiowide", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+  .lead4{
+    width: 49%;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .gradient{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top,black, transparent);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .orange-block {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: calc(1rem + 0.5vw); /* Responsive font size */
+    border-radius: 5px;
+  }
+  
+  .gallery-section {
+    margin-top: 70px;
+  }
+  
+  .gallery-title {
+    font-size: calc(1.2rem + 1vw); /* Responsive font size */
+    text-align: center;
+    margin-bottom: 20px;
+    color: orange;
+  }
+  
+  .gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .gallery-images img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border: 2px solid orange;
+    margin-bottom: 20px;
+  }
+  .procBlock{
+    width: 300px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EC7D30;
+    margin-top: 30px;
+    -webkit-box-shadow: 0 30px 50px rgba(0,0,0,.2);
+    box-shadow: 0 30px 50px rgba(0,0,0,.2);
+
+  }
+  .procText{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+  }
+  .line {
+    margin-bottom: 0px;
+    margin-top: 70px;
+    color: white;
+    opacity: 1;
+    
+  }

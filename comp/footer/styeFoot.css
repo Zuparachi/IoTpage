@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Audiowide&family=Inter:opsz,wght@14..32,300&family=Noto+Sans+Thai:wght@100..900&family=Orbitron:wght@400;500&display=swap');
+
+.footer-text {
+    text-align: center;
+    margin: 0;
+    font-size: calc(0.8rem + 0.5vw); /* Responsive font size */
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:white; 
+    height: 10%;
+  }
+.footer-text footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

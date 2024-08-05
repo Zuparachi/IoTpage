@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Noto+Sans+Thai:wght@300;400;500&family=Orbitron:wght@400;500&display=swap');
+.custom-font {
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.ham{
+    padding-left: 20px;
+}
